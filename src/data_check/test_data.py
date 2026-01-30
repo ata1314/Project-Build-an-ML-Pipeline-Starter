@@ -87,3 +87,18 @@ def test_similar_neigh_distrib(data: pd.DataFrame, ref_data: pd.DataFrame, kl_th
 ########################################################
 # Implement here test_row_count and test_price_range   #
 ########################################################
+
+def test_row_count(data):
+    """
+    Test that the dataset has a reasonable number of rows (between 1000 and 1000000)
+    """
+    assert 1000 < data.shape[0] < 1000000
+
+
+def test_price_range(data, min_price, max_price):
+    """
+    Test that all prices are within the expected range
+    """
+    assert data['price'].between(min_price, max_price).all()
+
+
