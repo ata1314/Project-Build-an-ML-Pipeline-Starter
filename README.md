@@ -1,3 +1,13 @@
+## Project Links
+- **W&B Project:** https://wandb.ai/ata1314-western-governors-university/nyc_airbnb
+- **GitHub Repository:** https://github.com/ata1314/Project-Build-an-ML-Pipeline-Starter
+
+## Final Model Performance (Test Set)
+- **R² Score:** 0.564
+- **MAE:** $33.85
+
+---
+
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
 You are working for a property management company renting rooms and properties for short periods of 
 time on various rental platforms. You need to estimate the typical price for a given property based 
